@@ -17,7 +17,7 @@ message = b'Message to send to the client.'
 # このクライアントのアドレスをソケットに紐付けます。
 # これはUNIXドメインソケットの場合に限ります。
 # このアドレスは、サーバによって送信元アドレスとして受け取られます。
-#sock.bind(address)
+sock.bind(address)
 
 try:
     # サーバにメッセージを送信します
